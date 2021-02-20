@@ -44,7 +44,7 @@ else if (browserName.equals("IE"))
 {
 //	IE code
 }
-
+System.out.println("Git Push done");
 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 return driver;
 
